@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+
+
   def index
     matching_posts = Post.all
 
